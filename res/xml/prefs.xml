@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- Change to your app prefs. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="BaaSBox Preferences" />
+    <CheckBoxPreference android:title="Sample"
+                        android:key="isSample"
+                        android:summary="Sample CheckBoxPreference"/>
+    <SwitchPreference android:title="Debug Logs" android:key="logsVerbose" android:summary="Show debug logs on LogCat"/>
+</PreferenceScreen>
